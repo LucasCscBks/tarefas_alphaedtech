@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de demonstração</title>
+</head>
+<body>
+    <h1 style="color: blue;">Praticando mais um pouco!</h1>
+    <form action="/Freestyle/Treino1/" method="post">
+        <fieldset>
+            <legend>Formulário demonstrativo</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="usuario_nome" />
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="usuario_password" required/>
+            </div>
+            <div>
+                <label for="date">Data de nascimento:</label>
+                <input type="date" id="date" name="data_de_nascimento" />
+            </div>
+            <div>
+                <span>Prefere: &nbsp&nbsp</span>
+                <label for="opcao">Sorvete</label>
+                <input type="radio" id="opcao" name="escolha" />
+                <label for="opcao2">Picolé</label>
+                <input type="radio" id="opcao2" name="escolha" />
+                <label for="opcao3">Dindin</label>
+                <input type="radio" id="opcao3" name="escolha" />
+            </div>
+            <div>
+                <span>Filmes que você gosta: &nbsp</span>
+                <label for="filme1">Jason</label>
+                <input type="checkbox" id="filme1" name="escolha1" />
+                <label for="filme2">Robocop</label>
+                <input type="checkbox" id="filme2" name="escolha2" />
+                <label for="filme3">Alien</label>
+                <input type="checkbox" id="filme3" name="escolha3" />
+                <label for="filme4">Transformers</label>
+                <input type="checkbox" id="filme4" name="escolha4" />
+            </div>
+            <div>
+                <label for="pontos">Pontos (entre 0 e 10) </label>
+                <input type="range" id="pontos" name="usuario_pontos" min="0" max="10" oninput="result.value = pontos.value" /><br />
+                <input type="text" id="result" />
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

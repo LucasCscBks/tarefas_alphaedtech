@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Bem vindo ao Ragnarok</legend>
+            <div>
+                <label for="login">Login: </label>
+                <input type="text" id="login" name="usuario_login"/>
+            </div>
+            <div>
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" name="usuario_senha"/>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="usuario_email"/>
+            </div>
+            <div>
+                <label for="idade">Data de nascimento : </label>
+                <input type="date" id="idade" name="usuario_idade" />
+            </div>
+            <div>
+                <span>Escolha o servidor : </span>
+                <label for="opcao">Odin</label>
+                <input type="radio" id="opcao" name="escolhido" />
+                <label for="opcao2">Thor</label>
+                <input type="radio" id="opcao2" name="escolhido" />
+                <label for="opcao3">Asgard</label>
+                <input type="radio" id="opcao3" name="escolhido" />
+            </div>
+            <div>
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Apagar</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
