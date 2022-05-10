@@ -1,0 +1,58 @@
+/*Exemplo de seletor universal*/
+* { 
+    color: blue;
+}
+/* Exemplo de seletor com ID */
+#meu_paragrafo {
+    color: red;
+}
+/* Exemplo de seletor com class */
+.classe_paragrafos_gerais {
+    color: green;
+}
+/* Exemplo de um seletor de atributo genérico 
+tem atributo caixinha igual seletor*/
+p[caixinha="seletor"] {
+    color: black;   
+}
+/* tem no atributo caixinha a palavra
+seletor no começo */
+p[caixinha^="seletor"] {
+    font-style: italic;
+}
+/* tem no atributo caixinha a palavra
+seletor no final */
+p[caixinha$="seletor"] {
+    font-size: xx-large;
+}
+/* tem no atributo caixinha a palavra
+seletor em QUALQUER lugar */
+p[caixinha*="seletor"] {
+    background-color: yellow;
+}
+/* abaixo exemplos de pseudo-classes */
+a:link {
+    background: aqua;
+
+}
+a:hover {
+    background: red;
+}
+/* exemplos de pseudo-elementos */
+a::before {
+    content: "' Inseri aqui pelo css' ";
+}
+footer::after {
+    content: " 'Inseri aqui pelo css TB' ";
+}
+/* exemplos de combinators 
+todo p em uma div recebe a configuração
+abaixo*/
+div p {
+    background-color: wheat;
+}
+/* todo h3 que vem imediatamente após o
+h2 */
+h2 + h3 {
+    color: red;
+}
