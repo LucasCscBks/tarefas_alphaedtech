@@ -1,0 +1,12 @@
+/* Demonstrando um exemplo de css external que vai sobrepor 
+e um que não vai sobrepor pela questão de prioridade */
+ul {
+    color: green;
+}
+h1 {
+    font-style: italic;
+    color: purple;
+}
+h3 {
+    color: chocolate;
+}
