@@ -1,0 +1,8 @@
+p {
+    width: 400px;
+    height: 400px;
+    margin: 5%;
+    padding: 8%;
+    border-style: dotted;
+    background-color: yellow;
+}

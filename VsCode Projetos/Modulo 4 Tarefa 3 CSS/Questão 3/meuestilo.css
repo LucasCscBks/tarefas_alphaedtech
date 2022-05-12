@@ -1,0 +1,23 @@
+h1 {
+    width: 70px;
+    overflow: hidden;
+    background-color: red;
+}
+p {
+    width: 80px;
+    font-size: 250%;
+    background-color: yellow;
+    overflow: visible;
+}
+h2 {
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    background-color: aqua;
+}
+h3 {
+    width: 100px;
+    height: 150px;
+    background-color: crimson;
+    overflow: auto;
+}
