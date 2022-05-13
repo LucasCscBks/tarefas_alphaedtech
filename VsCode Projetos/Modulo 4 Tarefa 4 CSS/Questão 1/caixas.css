@@ -1,0 +1,22 @@
+h1 {
+    background-color: red;
+}
+.caixas {
+    background-color: rgb(255,0,255,0.2);
+}
+h2 {
+    background: linear-gradient(red,yellow,green,blue,purple);
+    height: 50px;
+}
+h3 {
+    background-image: url(imagem/bola.jpg);
+    background-size: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}  
+#caixa-unica {
+    background-image: url(imagem/bola.jpg);
+    background-size: 200px;
+    height: 200px;
+    background-repeat: repeat;
+}

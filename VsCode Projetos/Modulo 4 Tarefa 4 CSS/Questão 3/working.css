@@ -1,0 +1,14 @@
+p {
+    background-image: url(imagens/Lucas.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 100%;
+    box-shadow: 50px 50px 20px 50px gray;
+}   
+

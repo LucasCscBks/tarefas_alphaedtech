@@ -1,0 +1,21 @@
+h1 {
+    border-style: dotted;
+    border-color: red;
+    border-width: 5px; 
+}
+h2 {
+    border-style: solid; 
+    border-top-color: aqua;
+    border-left-color: red;
+    border-bottom-color: blue;
+    border-right-color: green;
+    border-width: 30px;
+}
+h3 {
+    border-style: double;
+    border-color: firebrick;
+    border-width: 20px;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 20px;
+}
