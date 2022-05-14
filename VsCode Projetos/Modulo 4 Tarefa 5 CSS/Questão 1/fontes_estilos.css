@@ -1,0 +1,77 @@
+html {
+    background-color: rgb(200,255,255);
+    font-size: 15px;
+}
+header {
+    font-size: 2rem;
+    border: solid 2px green;
+}
+main {
+    font-size: 20px;
+    border: solid 2px red;
+    margin-top: 10px;
+}
+#paragrafo1 {
+    border: solid 2px blue;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+#paragrafo2 {
+    border: solid 2px purple;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ul {
+    border: dotted black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+#item-lista1 {
+    color: blue;   
+}
+#item-lista1ed {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#item-lista2 {
+    color: green;
+}
+#item-lista2ed {
+    font-weight: 900;
+}
+#item-lista3 {
+    color: red;
+}
+#item-lista3ed {
+    font-size: 50px;
+}
+#item-lista4 {
+    color: darkblue;
+}
+#item-lista4ed {
+    text-decoration: overline underline;
+}
+#paragrafo3 {
+    font-size: 2rem;
+}
+#minhaimagem {
+    background-image:url(trabalhando_work.jpg);
+    background-size: 600px 300px;
+    background-repeat: repeat-x;
+    width: 1200px;
+    height: 400px;
+    text-align:left;
+}
+footer {
+    font-size: 3rem;
+    text-shadow: 10px 10px 15px;
+    font-weight: 900;
+    font-family: cursive;
+}
+#entrada {
+    
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(0,100,100);
+}

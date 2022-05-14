@@ -1,0 +1,15 @@
+h1 {
+    writing-mode: vertical-lr;
+    display: inline;
+    border: solid 2px;
+}
+p {
+    writing-mode: vertical-rl;
+    display: inline;
+    font-size: 35px;
+    border: solid 2px;
+}
+h2 {
+    writing-mode: horizontal-tb;
+    border: solid 2px;
+}
