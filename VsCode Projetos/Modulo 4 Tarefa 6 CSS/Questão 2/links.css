@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 5vh 5vw;
+}
+p {
+    margin: 5vh 5vw;
+}
+/* pseudo-classes do link colocados
+em uma ordem que vão funcionar 
+perfeitamente */
+a {
+    outline: none;
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+}
+a:link {
+    font-size: 2rem;
+    
+}
+a:visited {
+    color: red;
+    
+}
+a:focus {
+    border: 2px solid blue;
+    background: black;
+}
+a:hover {
+    font-size: 3rem;
+    color: aqua;
+}
+a:active {
+    border: yellow solid 5px;
+    font-size: 2rem;
+    color: green;
+    background: purple;
+}

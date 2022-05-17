@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "AlexBrush";
+    src: url(fonts/webfontkit-20220516-224302/alexbrush-regular-webfont.woff);
+}
+p {
+    font-family: AlexBrush;
+    font-size: 50px;
+}

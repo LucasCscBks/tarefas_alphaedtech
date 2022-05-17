@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    background: rgba(255,0,0);
+    
+}
+h1 {
+    box-shadow: 5px 5px 5px 5px;
+}
+ul {
+    box-shadow: 5px 5px 5px 5px;
+}
+p {
+    padding-left: 15px;
+    font-size: 25px;
+    color: black;
+    box-shadow: 5px 5px 5px 5px;
+}
+.fonteazul {
+    color: blue;
+    font-weight: 900;
+}
+.fonteverde {
+    color: green;
+    font-weight: 900;
+}
+.lista1 {
+    background-image: url(imagens/bola.jpg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+#li1 {
+    list-style-type: circle;
+    list-style-position: inside;
+    
+}
+#li2 {
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+#li3 {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+#li4 {
+    list-style-type: none;
+    list-style-image: url(imagens/lapispequeno.png);
+}
+footer {
+    font-weight: 900;
+    font-style: italic;
+    color: gold;
+    height: 40vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}

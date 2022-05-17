@@ -1,0 +1,27 @@
+p {
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+}
+ul {
+    list-style: square;
+}
+ol {
+    list-style: upper-roman;
+}
+ol li {
+    font-family: 'Macondo', cursive;
+    font-size: 25px;
+}
+h2 {
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: red;
+    font-size: larger;
+    box-shadow: 10px 10px 10px 10px;
+}
