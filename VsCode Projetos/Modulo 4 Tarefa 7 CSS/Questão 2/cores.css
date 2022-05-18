@@ -1,0 +1,28 @@
+* {
+    font-size: 25px;
+}
+body { 
+    color: #0000ff;
+}
+main {
+    color: #ff0000dd;
+}
+#p1 {
+    color: rgb(55,255,55);
+}
+#p2 {
+    color: rgba(0,0,0,0.5);
+}
+#p3 {
+    color: hsl(100,50%,40%);
+}
+#p4 {
+    color: hsl(22,45%,35%,0.9);
+}
+#p5 {
+    color: black;
+    border: 2px solid currentColor;
+}
+h2 {
+    color: brown;
+}
